@@ -179,7 +179,7 @@ function initialize(products) {
     image.src = objectURL;
     image.alt = product.name;
 
-    // append the elements to the DOM as appropriate, to add the product to the UI
+    // append the elements to the DOM as appropriate, to add the product to the UI.
     main.appendChild(section);
     section.appendChild(heading);
     section.appendChild(para);
